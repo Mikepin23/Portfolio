@@ -1,0 +1,305 @@
+.background {
+  background: url("img/Theatre_Seats.jpg") no-repeat center bottom fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.navbar-custom {
+  background-color: transparent;
+  padding: 0 20px 0 20px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-item .nav-link:hover {
+  text-shadow: 1px 0 10px white;
+}
+
+.nav-item.dropdown.active .nav-link.active {
+  color: red;
+}
+
+.nav-item.dropdown.active .nav-link.active:hover {
+  text-shadow: 1px 0 10px red;
+}
+
+.navbar-nav .nav-item.dropdown > a::after {
+  display: none;
+}
+
+.dropdown-menu {
+  background-color: rgb(33, 31, 31);
+  background-size: cover;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("img/amphitheatre-low-resolution-logo-color-on-transparent-background.png");
+    background-size: cover;
+    opacity: 0.3;
+  }
+}
+
+.dropdown-item {
+  position: relative;
+  color: white;
+  font-weight: bolder;
+}
+
+.backgroundCover {
+  position: relative;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("img/Lion-King-wide.webp");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.4;
+  }
+}
+
+.movieInfo img {
+  position: relative;
+  width: 300px;
+  border-radius: 10px;
+  border: solid white;
+}
+
+.movieInfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movieInfo h1 {
+  font-size: 60px;
+}
+
+.movieInfo h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.movieInfo h3 {
+  font-size: 25px;
+  color: red;
+}
+
+.movieInfo h5 {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.movieInfo h4 {
+  font-size: 15px;
+  color: red;
+}
+
+.movieInfo p {
+  font-size: 10px;
+}
+
+.movieInfo a {
+  color: white;
+  text-decoration: none;
+}
+
+.movieInfo a:hover {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 0 10px white;
+}
+
+ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+.movieInfo .row {
+  margin-right: 35%;
+}
+
+.info-item {
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+#synopsis {
+  font-size: 20px;
+  margin: 10px 20% 50px 60px;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 25%;
+}
+
+.showtimes .col-lg-6 {
+  margin: 10px 60px 0 60px;
+}
+
+.theatresInfo h1 {
+  font-size: 60px;
+  text-align: center;
+  padding: 40px;
+}
+
+.theatresInfo a {
+  text-decoration: none;
+}
+
+.card {
+  border: solid white;
+}
+
+#colosseum {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("img/Amphitheaters/The-Colosseum.webp");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.2;
+  }
+}
+
+#flavian {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("img/Amphitheaters/Flavian-Amphitheatre.jpg");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.2;
+  }
+}
+
+#nimes {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("img/Amphitheaters/Nimes-Arena.jpg");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.2;
+  }
+}
+
+#arles {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("img/Amphitheaters/Arles-Amphitheatre.jpg");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.2;
+  }
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.comingSoon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comingSoon .gridFilms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comingSoon .gridFilms {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+  justify-content: center;
+}
+
+.comingSoon h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.film img {
+  width: 175px;
+  height: 250px;
+  border: solid white;
+}
+
+.film {
+  padding: 20px 20px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: transparent;
+  border-top: none;
+}
+
+.footer {
+  text-align: center;
+  background-color: transparent;
+  border-top: none;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-shadow: 1px 0 10px white;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 20px;
+}

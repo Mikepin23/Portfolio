@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theaters</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="Theaters_css.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header class="backgroundCover">
+      <section class="navigation">
+        <nav class="navbar navbar-expand-sm navbar-custom">
+          <a class="navbar-brand">
+            <img
+              src="img/amphitheatre-low-resolution-logo-color-on-transparent-background.png"
+              alt="Cinema Logo"
+              width="70px"
+              height="70px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="navbar-nav ml-auto d-flex flex-fill justify-content-evenly"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="../Main/main_index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Account/login.html">Account</a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  id="theatersDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Theatres
+                </a>
+                <div class="dropdown-menu" aria-labelledby="theatersDropdown">
+                  <a class="dropdown-item" href="#">Colosseum</a>
+                  <a class="dropdown-item" href="#">Flavian</a>
+                  <a class="dropdown-item" href="#">Nimes</a>
+                  <a class="dropdown-item" href="#">Arles</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Ticket/Tickets.html">Tickets</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </nav>
+      </section>
+
+      <section class="movieInfo">
+        <h1>The Lion King</h1>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-12 col-lg-6 img-fluid">
+              <img
+                src="img/Lion_King_portrait.jpg"
+                alt="Lion King Portrait"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="showtimes">
+                <h2>Showtimes</h2>
+                <h3>Cinema Colosseum</h3>
+                <h5>977 Saint-Catherine St W, Montreal, Quebec H3B 4W3</h5>
+                <ul class="list-unstyled">
+                  <li>9:00 AM, 10:20 AM, 11:55 AM</li>
+                  <li>1:00 PM, 3:45 PM, 4:55 PM</li>
+                  <li>6:00 PM, 7:45 PM, 8:35 PM, 10:10 PM, 11:30 PM</li>
+                </ul>
+                <button class="btn btn-danger">
+                  <a href="../Ticket/Tickets.html">Get Tickets</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="info-item">
+                <h4>Length</h4>
+                <p>1h 58m</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info-item">
+                <h4>Ratings</h4>
+                <a
+                  href="https://www.imdb.com/title/tt6105098/"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <p>6.8/10 IMDB</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info-item">
+                <h4>Genre</h4>
+                <p>Animation, Drama, Musical, Adventure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="synopsis">
+          <p id="synopsis">
+            Set amid the majestic beauty of the Serengeti, Disney's epic coming
+            of age saga tells of the love between a proud lion ruler, Mufasa,
+            and his son Simba -- a naive and curious cub who "just can't wait to
+            be king." Out from the shadows prowl Simba's envious Uncle Scar and
+            his hyena henchmen.
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <main class="background">
+      <section class="theatresInfo">
+        <h1>Our Cinemas</h1>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+              <a href="#">
+                <div class="card">
+                  <div id="colosseum">
+                    <img
+                      src="img/Amphitheaters/The-Colosseum.webp"
+                      class="card-img-top"
+                      alt="Theater 1"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Colosseum</h5>
+                      <p class="card-text">
+                        977 Saint-Catherine St W, Montreal <br />Quebec, Canada
+                        H3B 4W3
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <a href="#">
+                <div class="card">
+                  <div id="flavian">
+                    <img
+                      src="img/Amphitheaters/Flavian-Amphitheatre.jpg"
+                      class="card-img-top"
+                      alt="Theater 2"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Flavian</h5>
+                      <p class="card-text">
+                        3200 Blvd Jean Beliveau, Kirkland <br />Quebec, Canada
+                        H9J 2R6
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <a href="#">
+                <div class="card">
+                  <div id="nimes">
+                    <img
+                      src="img/Amphitheaters/Nimes-Arena.jpg"
+                      class="card-img-top"
+                      alt="Theater 3"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Nimes</h5>
+                      <p class="card-text">
+                        2800 Ave du Cosmodôme, Laval <br />Quebec, Canada H7T
+                        2X1
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+              <a href="#">
+                <div class="card">
+                  <div id="arles">
+                    <img
+                      src="img/Amphitheaters/Arles-Amphitheatre.jpg"
+                      class="card-img-top"
+                      alt="Theater 4"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Arles</h5>
+                      <p class="card-text">
+                        1071 Chem. du Coteau, Terrebonne <br />Quebec, Canada
+                        J6W 5Y8
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="comingSoon">
+        <h1>Coming Soon</h1>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="film text-center">
+                <img
+                  src="img/Coming Soon/black-widow.jpg"
+                  alt="Black Widow"
+                  class="mx-auto"
+                />
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="film text-center">
+                <img
+                  src="img/Coming Soon/doctor-strange.jpg"
+                  alt="Doctor Strange"
+                  class="mx-auto"
+                />
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="film text-center">
+                <img
+                  src="img/Coming Soon/Inception_wp.jpg"
+                  alt="Inception"
+                  class="mx-auto"
+                />
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="film text-center">
+                <img
+                  src="img/Coming Soon/joker-2019.jpg"
+                  alt="Joker"
+                  class="mx-auto"
+                />
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="film text-center">
+                <img
+                  src="img/Coming Soon/po-animation-kung-fu-panda-3.jpg"
+                  alt="Kung Fu Panda"
+                  class="mx-auto"
+                />
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="film text-center">
+                <img
+                  src="img/Coming Soon/venom.jpg"
+                  alt="Venom"
+                  class="mx-auto"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer">
+        <footer class="p-3 transparent-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="#">
+                  <h5>About Us</h5>
+                </a>
+                <p>Learn more about our website.</p>
+              </div>
+              <div class="col-md-4">
+                <a href="#">
+                  <h5>Contact</h5>
+                </a>
+                <p>Contact us for inquiries.</p>
+              </div>
+              <div class="col-md-4">
+                <a href="#">
+                  <h5>Disclaimer</h5>
+                </a>
+                <p>Read our disclaimer.</p>
+              </div>
+            </div>
+          </div>
+          <p id="copyright">&copy; 2023 Amphitheatre. All rights reserved.</p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

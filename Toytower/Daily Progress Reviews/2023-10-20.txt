@@ -1,0 +1,47 @@
+2023-10-20
+
+/* --------------------------------------------------------- */
+
+General Discussion:
+
+- 
+
+/* --------------------------------------------------------- */
+
+1) What we have done since the last meeting
+
+Michael: 
+
+- Almost completed a header, navigation bar and footer that will be used for each page.
+
+Zachary: 
+
+-
+
+/* --------------------------------------------------------- */
+
+2) What we plan to do today
+
+Michael: 
+
+- Complete the header, navigation bar and footer for the website. Start developing the cards that will be used for the categories and brands pages. Also if possible develop the forms for the login and sign up pages.
+
+Zachary: 
+
+-
+
+/* --------------------------------------------------------- */
+
+3) Likely problems we may face 
+
+General Problems:
+
+-
+
+Michael: 
+
+- Trial and error to develop an aesthetic page. Constantly applying different tags and css.
+
+Zachary: 
+
+-
