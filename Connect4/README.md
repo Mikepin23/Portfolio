@@ -1,2 +1,2 @@
-![Empty Board](images/connect4-1.jpg)
-![Game Ends](images/connect4-2.jpg)
+![Empty Board](images/Connect4-1.png)
+![Game Ends](images/Connect4-2.png)
